@@ -19,7 +19,7 @@
             "type": "singleshot",
             "timeslot": "2026-06-17T09:36:52.000Z",
             "superGroup": "Garstang Community Academy",
-            "path": "tour.json",
+            "path": "Panoramas",
             "vertices": [
                 {
                     "id": "2026-06-17_53.889285,1077.233857_panorama",
@@ -28,7 +28,7 @@
                         53.88928486807131,
                         1077.2338566184046
                     ],
-                    "path": "/Panoramas/Outside Reception.jpg",
+                    "path": "Outside Reception.jpg",
                     "image": {
                         "width": 8704,
                         "height": 4352
@@ -62,7 +62,7 @@
                         53.88932478206677,
                         1077.2339008748534
                     ],
-                    "path": "/Panoramas/Reception.jpg",
+                    "path": "Reception.jpg",
                     "image": {
                         "width": 8704,
                         "height": 4352
@@ -109,7 +109,7 @@
                         53.88944203538282,
                         1077.2336085140707
                     ],
-                    "path": "/Panoramas/Calder Canteen.jpg",
+                    "path": "Calder Canteen.jpg",
                     "image": {
                         "width": 8704,
                         "height": 4352
@@ -157,7 +157,7 @@
                         53.88947444068594,
                         1077.2333054244518
                     ],
-                    "path": "/Panoramas/Outside Fairsnape.jpg",
+                    "path": "Outside Fairsnape.jpg",
                     "image": {
                         "width": 8704,
                         "height": 4352
@@ -191,7 +191,7 @@
                         53.88952344377954,
                         1077.2331297397614
                     ],
-                    "path": "/Panoramas/Fairsnape Canteen.jpg",
+                    "path": "Fairsnape Canteen.jpg",
                     "image": {
                         "width": 8704,
                         "height": 4352
@@ -209,7 +209,7 @@
                         53.88971368836024,
                         1077.2341650724413
                     ],
-                    "path": "/Panoramas/Gym.jpg",
+                    "path": "Gym.jpg",
                     "image": {
                         "width": 8704,
                         "height": 4352
@@ -227,7 +227,7 @@
                         53.889234722355575,
                         1077.2342616319659
                     ],
-                    "path": "/Panoramas/Outside Calder.jpg",
+                    "path": "Outside Calder.jpg",
                     "image": {
                         "width": 8704,
                         "height": 4352
@@ -258,93 +258,4 @@
                             "type": "route",
                             "data": {
                                 "yaw": 84.93937691014584,
-                                "pitch": 0.6519669555494652
-                            },
-                            "bidirectional": true,
-                            "oppositeData": {
-                                "yaw": -133.22349408513597,
-                                "pitch": 8.38211723870611
-                            }
-                        }
-                    ]
-                },
-                {
-                    "id": "2026-06-17_53.889641,1077.233830_panorama",
-                    "type": "panorama",
-                    "coordinates": [
-                        53.88964097440268,
-                        1077.2338297963142
-                    ],
-                    "path": "/Panoramas/The Hall.jpg",
-                    "image": {
-                        "width": 8704,
-                        "height": 4352
-                    },
-                    "data": {
-                        "type": "equirectangular",
-                        "vaov": 180,
-                        "northOffset": 141.57652624246452
-                    },
-                    "outgoingEdges": [
-                        {
-                            "id": "2026-06-17_53.889641,1077.233830_panorama to 2026-06-17_53.889714,1077.234165_panorama route",
-                            "to": "2026-06-17_53.889714,1077.234165_panorama",
-                            "type": "route",
-                            "data": {
-                                "yaw": -254.10729285022322,
-                                "pitch": -0.7956403170924983
-                            },
-                            "bidirectional": true,
-                            "oppositeData": {
-                                "yaw": -125.85115733930212,
-                                "pitch": 0.6029032016391563
-                            }
-                        }
-                    ]
-                },
-                {
-                    "id": "2026-06-17_53.889416,1077.235660_panorama",
-                    "type": "panorama",
-                    "coordinates": [
-                        53.88941595304742,
-                        1077.2356604039671
-                    ],
-                    "path": "/Panoramas/Outside Sports Hall.jpg",
-                    "image": {
-                        "width": 8704,
-                        "height": 4352
-                    },
-                    "data": {
-                        "type": "equirectangular",
-                        "vaov": 180
-                    }
-                }
-            ]
-        }
-    ],
-    "settings": {
-        "map": {
-            "center": [
-                53.88928498539281,
-                1077.2338566184046
-            ],
-            "zoom": 20
-        },
-        "timeline": {
-            "end": "2026-06-17T14:20:27.767Z",
-            "start": "2025-06-17T14:20:27.767Z",
-            "selections": [
-                "June 2026 Garstang Community Academy"
-            ]
-        },
-        "panorama": {
-            "scene": "2026-06-17_53.889285,1077.233857_panorama",
-            "yaw": 28.947266175936626,
-            "pitch": -3.948605192077264,
-            "hfov": 120
-        }
-    },
-    "map": {
-        "backgrounds": []
-    }
-}
+                                "pitch": 0.
