@@ -1,0 +1,350 @@
+{
+    "version": 1,
+    "temporalGroups": [
+        {
+            "id": "Garstang Community Academy",
+            "name": "Garstang Community Academy",
+            "type": "tour",
+            "description": "",
+            "autoConnectColocated": true,
+            "colocatedRadius": 3,
+            "multiselect": true,
+            "exclusiveTemporalSubgroups": false
+        }
+    ],
+    "spatialGroups": [
+        {
+            "id": "June 2026 Garstang Community Academy",
+            "name": "June 2026",
+            "type": "singleshot",
+            "timeslot": "2026-06-17T09:36:52.000Z",
+            "superGroup": "Garstang Community Academy",
+            "path": "tour.json",
+            "vertices": [
+                {
+                    "id": "2026-06-17_53.889285,1077.233857_panorama",
+                    "type": "panorama",
+                    "coordinates": [
+                        53.88928486807131,
+                        1077.2338566184046
+                    ],
+                    "path": "Outside Reception.jpg",
+                    "image": {
+                        "width": 8704,
+                        "height": 4352
+                    },
+                    "data": {
+                        "type": "equirectangular",
+                        "vaov": 180,
+                        "northOffset": -22.66420752135
+                    },
+                    "outgoingEdges": [
+                        {
+                            "id": "2026-06-17_53.889285,1077.233857_panorama to 2026-06-17_53.889325,1077.233901_panorama route",
+                            "to": "2026-06-17_53.889325,1077.233901_panorama",
+                            "type": "route",
+                            "data": {
+                                "yaw": 22.73503764097327,
+                                "pitch": -0.7323771191479684
+                            },
+                            "bidirectional": true,
+                            "oppositeData": {
+                                "yaw": -177.93435445293528,
+                                "pitch": -9.867942213750373
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": "2026-06-17_53.889325,1077.233901_panorama",
+                    "type": "panorama",
+                    "coordinates": [
+                        53.88932478206677,
+                        1077.2339008748534
+                    ],
+                    "path": "Reception.jpg",
+                    "image": {
+                        "width": 8704,
+                        "height": 4352
+                    },
+                    "data": {
+                        "type": "equirectangular",
+                        "vaov": 180
+                    },
+                    "outgoingEdges": [
+                        {
+                            "id": "2026-06-17_53.889325,1077.233901_panorama to 2026-06-17_53.889442,1077.233609_panorama route",
+                            "to": "2026-06-17_53.889442,1077.233609_panorama",
+                            "type": "route",
+                            "data": {
+                                "yaw": -60.19512267288156,
+                                "pitch": -4.595404014907745
+                            },
+                            "bidirectional": true,
+                            "oppositeData": {
+                                "yaw": -221.5774950602558,
+                                "pitch": -1.6953798936654556
+                            }
+                        },
+                        {
+                            "id": "2026-06-17_53.889325,1077.233901_panorama to 2026-06-17_53.889714,1077.234165_panorama route",
+                            "to": "2026-06-17_53.889714,1077.234165_panorama",
+                            "type": "route",
+                            "data": {
+                                "yaw": -0.07523329598058837,
+                                "pitch": -3.4759696175434476
+                            },
+                            "bidirectional": true,
+                            "oppositeData": {
+                                "yaw": 151.52506021070192,
+                                "pitch": -0.8023119304135182
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": "2026-06-17_53.889442,1077.233609_panorama",
+                    "type": "panorama",
+                    "coordinates": [
+                        53.88944203538282,
+                        1077.2336085140707
+                    ],
+                    "path": "Calder Canteen.jpg",
+                    "image": {
+                        "width": 8704,
+                        "height": 4352
+                    },
+                    "data": {
+                        "type": "equirectangular",
+                        "vaov": 180,
+                        "northOffset": 137.510405684345
+                    },
+                    "outgoingEdges": [
+                        {
+                            "id": "2026-06-17_53.889442,1077.233609_panorama to 2026-06-17_53.889641,1077.233830_panorama route",
+                            "to": "2026-06-17_53.889641,1077.233830_panorama",
+                            "type": "route",
+                            "data": {
+                                "yaw": 34.18792919877802,
+                                "pitch": -3.041372427248689
+                            },
+                            "bidirectional": true,
+                            "oppositeData": {
+                                "yaw": -160.42148647652056,
+                                "pitch": -1.5783346940583893
+                            }
+                        },
+                        {
+                            "id": "2026-06-17_53.889442,1077.233609_panorama to 2026-06-17_53.889474,1077.233305_panorama route",
+                            "to": "2026-06-17_53.889474,1077.233305_panorama",
+                            "type": "route",
+                            "data": {
+                                "yaw": -77.33311703739909,
+                                "pitch": -1.5827029851860257
+                            },
+                            "bidirectional": true,
+                            "oppositeData": {
+                                "yaw": 67.67820376337534,
+                                "pitch": 4.286765087068066
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": "2026-06-17_53.889474,1077.233305_panorama",
+                    "type": "panorama",
+                    "coordinates": [
+                        53.88947444068594,
+                        1077.2333054244518
+                    ],
+                    "path": "Outside Fairsnape.jpg",
+                    "image": {
+                        "width": 8704,
+                        "height": 4352
+                    },
+                    "data": {
+                        "type": "equirectangular",
+                        "vaov": 180,
+                        "northOffset": -26.067162290647783
+                    },
+                    "outgoingEdges": [
+                        {
+                            "id": "2026-06-17_53.889474,1077.233305_panorama to 2026-06-17_53.889523,1077.233130_panorama route",
+                            "to": "2026-06-17_53.889523,1077.233130_panorama",
+                            "type": "route",
+                            "data": {
+                                "yaw": -67.67816587213213,
+                                "pitch": 0.798075922066966
+                            },
+                            "bidirectional": true,
+                            "oppositeData": {
+                                "yaw": 95.12816633920053,
+                                "pitch": -4.140797495928581
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": "2026-06-17_53.889523,1077.233130_panorama",
+                    "type": "panorama",
+                    "coordinates": [
+                        53.88952344377954,
+                        1077.2331297397614
+                    ],
+                    "path": "Fairsnape Canteen.jpg",
+                    "image": {
+                        "width": 8704,
+                        "height": 4352
+                    },
+                    "data": {
+                        "type": "equirectangular",
+                        "vaov": 180,
+                        "northOffset": -89.41544783655661
+                    }
+                },
+                {
+                    "id": "2026-06-17_53.889714,1077.234165_panorama",
+                    "type": "panorama",
+                    "coordinates": [
+                        53.88971368836024,
+                        1077.2341650724413
+                    ],
+                    "path": "Gym.jpg",
+                    "image": {
+                        "width": 8704,
+                        "height": 4352
+                    },
+                    "data": {
+                        "type": "equirectangular",
+                        "vaov": 180,
+                        "northOffset": -28.28511983472373
+                    }
+                },
+                {
+                    "id": "2026-06-17_53.889235,1077.234262_panorama",
+                    "type": "panorama",
+                    "coordinates": [
+                        53.889234722355575,
+                        1077.2342616319659
+                    ],
+                    "path": "Outside Calder.jpg",
+                    "image": {
+                        "width": 8704,
+                        "height": 4352
+                    },
+                    "data": {
+                        "type": "equirectangular",
+                        "vaov": 180,
+                        "northOffset": 52.988324613265675
+                    },
+                    "outgoingEdges": [
+                        {
+                            "id": "2026-06-17_53.889235,1077.234262_panorama to 2026-06-17_53.889325,1077.233901_panorama route",
+                            "to": "2026-06-17_53.889325,1077.233901_panorama",
+                            "type": "route",
+                            "data": {
+                                "yaw": -55.11592030621412,
+                                "pitch": 1.4206106933317686
+                            },
+                            "bidirectional": true,
+                            "oppositeData": {
+                                "yaw": 81.04540347772084,
+                                "pitch": -3.3041366531331975
+                            }
+                        },
+                        {
+                            "id": "2026-06-17_53.889235,1077.234262_panorama to 2026-06-17_53.889416,1077.235660_panorama route",
+                            "to": "2026-06-17_53.889416,1077.235660_panorama",
+                            "type": "route",
+                            "data": {
+                                "yaw": 84.93937691014584,
+                                "pitch": 0.6519669555494652
+                            },
+                            "bidirectional": true,
+                            "oppositeData": {
+                                "yaw": -133.22349408513597,
+                                "pitch": 8.38211723870611
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": "2026-06-17_53.889641,1077.233830_panorama",
+                    "type": "panorama",
+                    "coordinates": [
+                        53.88964097440268,
+                        1077.2338297963142
+                    ],
+                    "path": "The Hall.jpg",
+                    "image": {
+                        "width": 8704,
+                        "height": 4352
+                    },
+                    "data": {
+                        "type": "equirectangular",
+                        "vaov": 180,
+                        "northOffset": 141.57652624246452
+                    },
+                    "outgoingEdges": [
+                        {
+                            "id": "2026-06-17_53.889641,1077.233830_panorama to 2026-06-17_53.889714,1077.234165_panorama route",
+                            "to": "2026-06-17_53.889714,1077.234165_panorama",
+                            "type": "route",
+                            "data": {
+                                "yaw": -254.10729285022322,
+                                "pitch": -0.7956403170924983
+                            },
+                            "bidirectional": true,
+                            "oppositeData": {
+                                "yaw": -125.85115733930212,
+                                "pitch": 0.6029032016391563
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": "2026-06-17_53.889416,1077.235660_panorama",
+                    "type": "panorama",
+                    "coordinates": [
+                        53.88941595304742,
+                        1077.2356604039671
+                    ],
+                    "path": "Outside Sports Hall.jpg",
+                    "image": {
+                        "width": 8704,
+                        "height": 4352
+                    },
+                    "data": {
+                        "type": "equirectangular",
+                        "vaov": 180
+                    }
+                }
+            ]
+        }
+    ],
+    "settings": {
+        "map": {
+            "center": [
+                53.88928498539281,
+                1077.2338566184046
+            ],
+            "zoom": 20
+        },
+        "timeline": {
+            "end": "2026-06-17T14:20:27.767Z",
+            "start": "2025-06-17T14:20:27.767Z",
+            "selections": [
+                "June 2026 Garstang Community Academy"
+            ]
+        },
+        "panorama": {
+            "scene": "2026-06-17_53.889285,1077.233857_panorama",
+            "yaw": 28.947266175936626,
+            "pitch": -3.948605192077264,
+            "hfov": 120
+        }
+    },
+    "map": {
+        "backgrounds": []
+    }
+}
